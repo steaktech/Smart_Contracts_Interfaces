@@ -6,6 +6,8 @@ interface IKitchenDeployer {
         string memory name,
         string memory symbol,
         address creator,
+        address[4] calldata taxWallets,
+        uint8[4] calldata taxSplits,
         bool isTax,
         bool removeHeader,
         uint256 finalTaxRate,

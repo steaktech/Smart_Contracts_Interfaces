@@ -2,5 +2,5 @@
 pragma solidity ^0.8.20;
 
 interface IKitchenGraduation {
-    function graduateToken(address token) external;
+    function graduateToken(address token, address stipendReceiver) external;
 }
